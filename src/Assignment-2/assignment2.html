@@ -11,59 +11,67 @@
 <body>
 	<div id="container">
 	<!--start code-->
-	<header>
-		<img src="data:image/png;base64,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" alt="company logo">
-		<form class="searchbar">
-			<input type="text" placeholder="Search.." name="search">
-		</form>
-		<nav class="navlinks">
-			<a href="http://127.0.0.1:5500/htmlcssassignments1/src/Assignment-2/http://google.com">Contact us</a>
-			<a href="http://127.0.0.1:5500/htmlcssassignments1/src/Assignment-2/http://google.com">Our Investors</a>
-			<a href="http://127.0.0.1:5500/htmlcssassignments1/src/Assignment-2/http://google.com">Career</a>
-			<a href="http://127.0.0.1:5500/htmlcssassignments1/src/Assignment-2/http://google.com">Worldwide</a>
-		</nav>
-	</header>
-	<aside>
-		<div class="leftbar">
-			<ul>
-				<h1>Mutton Masala</h1>
-				<h1>Chicken Masala</h1>
-				<h1>Non-Veg Biryani Masala</h1>
-				<h1>Veg Biryani Masala</h1>
-				<h1>Pani-Puri Masala</h1>
-				<h1>Chaat Masala</h1>
-				<h1>Jaljira Masala</h1>
-				<h1>Pav Bhaji Masala</h1>
-				<h1>Paneer Masala</h1>
-				<h1>Fish Masala</h1>
-			</ul>
+		<header>
+			<div class="logo">
+				<img src="https://i0.wp.com/logotaglines.com/wp-content/uploads/2017/07/tata-motors-logo.jpg?fit=900%2C666&ssl=1" alt="logo">
+			</div>
+			<form class="searchbar">
+				<input name="text" placeholder="Search..">
+			</form>
+			<nav>
+				<a href="#">About Us</a>
+				<a href="#">Products</a>
+				<a href="#">Careers</a>
+				<a href="#">Contact Us</a>
+			</nav>
+		</header>
+		<div>
+			<div class="leftside">
+				<aside>
+					<ul>
+						<li>Safari</li>
+						<li>Harrier</li>
+						<li>Nexon</li>
+						<li>Nexon EV</li>
+						<li>Altroz</li>
+						<li>Tiago</li>
+						<li>Tigor</li>
+						<li>Punch</li>
+						<li>Tigor EV</li>
+						<li>Nano</li>
+					</ul>
+				</aside>
+			</div>
+			<div class="middle">
+				<section id="main-content-section">
+					<div class="uppercontent">
+						<img class="post-img" src="https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cdni.autocarindia.com/ExtraImages/20201007020644_harrier-dark.jpg&w=700&q=90&c=1" alt="img1">
+						<img class="post-img" src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Tata/Nexon-EV/8505/Tata-Nexon-EV-XZ-Plus-Lux-Dark-Edition/1625823768541/front-left-side-47.jpg" alt="img2">
+						<img class="post-img" src="https://gaadiwaadi.com/wp-content/uploads/2022/01/Tata-Safari-Dark-Edition-Vs-Harrier-Dark-Edition-1068x601.jpg" alt="img3">
+					</div>
+					<div class="lowercontent">
+						<img class="post-img" src="https://www.motorbeam.com/wp-content/uploads/Tata-Safari-Black-Gold-Rear.jpg" alt="img4">
+						<img class="post-img" src="https://www.team-bhp.com/forum/attachments/indian-car-scene/1857082d1552032810-tata-developing-premium-hatchback-altroz-edit-launched-5-29-lakh-blue1.jpg" alt="img5">
+						<img class="post-img" src="https://www.cartoq.com/wp-content/uploads/2021/10/Tata-Punch-Dark-Edition-featured.jpg" alt="img6">
+					</div>
+				</section>
+			</div>
+			<div class="righside">
+				<aside class="rightside">
+					<ul id="right-sidebar-menu">
+						<li>SUV's</li>
+						<li>Compact SUV's</li>
+						<li>Compact Sedan</li>
+						<li>Premium Hatchback</li>
+						<li>Hatchback</li>
+						<li>EV's</li>
+					</ul>
+				</aside>
+			</div>
 		</div>
-		<div class="rightbar">
-			<ul>
-				<h1>Dryfruit Pickle</h1>
-				<h1>Mango Pickle</h1>
-				<h1>Lemon Pickle</h1>
-				<h1>Mix Pickle</h1>
-				<h1>Cherry Pickle</h1>
-				<h1>Root pickle</h1>
-			</ul>
-		</div>
-		<div class="middle-row">
-			<div class="top-images">
-				<img src="./assignment2_files/IMG-20200121-WA0004.jpg" alt="pickle">
-				<img src="./assignment2_files/IMG-20200614-WA0030.jpg" alt="sambar masala">
-				<img src="./assignment2_files/IMG-20191107-WA0017.jpg" alt="lasun">
-			</div>
-			<div class="bottom-images">
-				<img src="./assignment2_files/Banner_3.jpg" alt="spices">
-				<img src="./assignment2_files/images" alt="spices2">
-				<img src="./assignment2_files/s2.jpg" alt="spices3">
-			</div>
-			</div>
-	</aside>
-	<footer class="footerpara">
-		<p>As the majority of the world's spices come from South East Asia, the spice trade helped drive the global economy starting in the Middle Ages. The Silk Road was a dangerous and long trade route that went from China to Europe. Sailing helped to speed up the shipment of spices. In search of a faster root to India, Christopher Columbus chose to sail east, landing in North America instead. It is believed that this mistake in continents is why Indigenous peoples were wrongly named "Indians."</p>
-	</footer>
+		<footer id="page-footer">
+			<p>© Copyright 2022 Tata Motors. All Rights Reserved. Legal Disclaimer Open Source License Disclosure</p>
+		</footer>
 	
 	<!-- End your code -->
 
