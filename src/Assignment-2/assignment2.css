@@ -3,79 +3,94 @@
     height: 100%;
     border: solid 2px black;
 }
-img{
-    width: 80px;
-    height: 80px;
-    padding: 10px;
-}
 header{
-    width: 100%;
-    height: 100px;
-    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    height: 22vh;
+    background-image: url(https://www.libertyinsurance.in/images/car-brands/header-tata.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid black;
 }
-.searchbar{
+img {
+    width: 10vw;
+    height: 18vh;
+    padding: 14px;
+}
+.searchbar {
     float: right;
     padding: 10px;
-    margin-top: 40px;
-    margin-right: 40px;
+    margin-top: -70px;
+    margin-right: 90px;
 }
-.navlinks{
-    width: 99%;
-    float: left;
-    border: solid 1px black;
-    padding: 5px;
-    margin-top: 0px;
-    background-color:rgb(78, 34, 34);
+nav{
     text-align: center;
-    padding-left: 0%;
-
+    margin-top: 0vh;
+    display: block;
+    border: 1px solid black;
+    background-color: aliceblue;
+    padding: 7px;
 }
-.navlinks a{
-    margin: 130px;
-    color: rgb(248, 237, 237);
+.leftside{
+    border: 1px solid black;
+    width: 20vw;
+    margin-top: 6vh;
+    height: 54vh;
+    display: block;
+    background-image: url(https://w0.peakpx.com/wallpaper/174/1010/HD-wallpaper-tata-car-interior-logo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(255, 255, 255);
 }
-.leftbar{
-    border: solid 1px black;
-    float: left;
-    width: 25%;
-    background-color: rgb(248, 237, 237);
+.leftside ul{
+    list-style-type: none;
+    margin-block-start: 5em;
+    margin-block-end: 1em;
+    margin-inline-start: 72px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
 }
-.leftbar ul{
-    height: 395px;
-    text-align: center;
-    padding: 20px;
-}
-.leftbar ul h1{
-    font-size: 18px;
-}
-.rightbar{
-    border: solid 1px black;
+.rightside{
     float: right;
-    width: 25%;
-    background-color: rgb(248, 237, 237);
+    margin-left: 79.98vw;
+    margin-top: -54.3vh;
+    border: 1px solid black;
+    width: 20vw;
+    margin-top: 6vh;
+    height: 54vh;
+    display: block;
+    background-image: url(https://w0.peakpx.com/wallpaper/174/1010/HD-wallpaper-tata-car-interior-logo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(255, 255, 255);
+    margin-top: -54.3vh;
+    margin-right: -1vw;
 }
-.rightbar ul{
-    height: 335px;
+.middle{
+    margin-left: 20.2vw;
+    width: 59.5vw;
+    margin-top: -54vh;
+    background-color: lightgray;
+}
+section{
+    margin-left: 0vw;
+    display: block;
+    height: 54vh;
+}
+.post-img{
+width: 19vw;
+padding: 5px;
+height: 25.4vh
+}
+footer p{
     text-align: center;
-    padding: 50px;
+    background-color: lightgray;
 }
-.rightbar ul h1{
-    font-size: 18px;
-}
-.middle-row{
-    align-content: center;
-    width: 50%;
-    height: 470px;
-    margin-left: 25%;
-    margin-top: 50px;
-    background-color: rgb(248, 237, 237);
-}
-.middle-row img{
-    width: 210px;
-    height: 210px;
-    margin-left: 15px;
-}
-.footerpara{
-    border: solid 1px black;
-    text-align:center ;
+footer {
+    display: block;
+    width: 100vw;
+    height: 10vh;
+    border: 1px solid black;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/002/671/294/non_2x/light-blue-green-abstract-blur-texture-vector.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
