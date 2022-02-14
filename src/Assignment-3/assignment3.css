@@ -57,8 +57,8 @@ margin: 0%;
 .button2{
     background-color: black;
     color: white;
-    width: 8vw;
-    height: 6vh;
+    height: 45px;
+    width: 130px;
     border-radius: 10px;
     margin-left: 45vw;
 }

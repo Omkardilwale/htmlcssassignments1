@@ -5,3 +5,70 @@
 width: 100%;
 height: 100%;
 }
+
+.body{
+    background-color: lightgrey;
+}
+.card{
+    display: flex;
+    height: 700px;
+    background-color: lightgray;
+}
+.page{
+    display: flex;
+    margin-left: 130px;
+    height: 520px;
+    background-color: lightgreen;
+    margin-top: 140px;
+    width: 90%;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.image1{
+    margin-left: -60px;
+    margin-top: -60px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.image2{
+    margin-left: -60px;
+    margin-top: -60px;
+    display: flex;
+    flex-direction: column;
+}
+#leaf{
+    height: 578px;
+}
+button{
+    width: 130px;
+    height: 50px;
+    border-radius: 30px;
+    color: white;
+    background-color: rgb(92, 230, 92);
+    margin-left: 70px;
+    font-weight: 900;
+    text-shadow: 1px 1px black;
+    border: 2px solid black;
+}
+#waxflower{
+    height: 450px;
+}
+.content h1{
+    font-size: xxx-large;
+    padding: 0px 0px 0px 70px;
+    margin-bottom: 0px;
+    margin-top: 90px;
+}
+.content p{
+    padding: 0px 0px 0px 70px;
+    font-size: xx-large;
+}
+button:hover{
+    cursor: pointer;
+    background-color: darkgreen;
+}
