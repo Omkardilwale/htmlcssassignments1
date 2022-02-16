@@ -4,41 +4,65 @@
 .container, .content {
 width: 100%;
 height: 100%;
+padding:0%;
+margin: 0%;
 }
 .container1{
-    width: 20%;
-    height: 100%;
-    padding: 15%;
+    width: 100%;
+    height: 60vh;
+    padding: 0%;
+    margin: 0%;
     background-color: #f2f2f2;
-    float: left;
+}
+.container1 h1{
+    padding-top: 10%;
+    padding-left: 8%;
+}
+.container1 p{
+    padding-right: 55vw;
+    display: block;
+    padding-left: 8%;
 }
 .button1{
+    margin-left: 8vw;
     background-color: black;
     color: white;
-    text-align: center;
-    margin-left: 25%;
+    border-radius: 12px;
+    height: 45px;
+    width: 130px;
+}
+#render-wiki {
+    float: right;
+    padding-right: 7%;
+    margin-top: -10%;
+    width: 40%;
+    height: 60%;
 }
 .container2{
-    width: 20%;
-    height: 288px;
-    padding: 13%;
-    background-color: #f2f2f2;
-    float: right;
-    margin-right: 50px;
-}
-.container3{
     width: 100%;
-    height: 100%;
+    height: 60vh;
     background-color: #f2f2f2;
+}
+.container2 h1{
+    padding-top: 3vh;
     text-align: center;
 }
-.container3 h1{
+.container2 p{
     text-align: center;
-    margin-left: 30%;
-    display: block;
+}
+#render-dictionary{
+    width: 46vw;
+    height: 32vh;
 }
 .button2{
     background-color: black;
     color: white;
-    text-align: center;
+    height: 45px;
+    width: 130px;
+    border-radius: 10px;
+    margin-left: 45vw;
+}
+.frame{
+    margin-left: 26vw;
+    margin-top: 4vh;
 }

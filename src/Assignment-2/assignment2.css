@@ -10,6 +10,7 @@ header{
     background-size: cover;
     background-repeat: no-repeat;
     border: 1px solid black;
+    background-position: center center;
 }
 img {
     width: 10vw;
@@ -18,11 +19,15 @@ img {
 }
 .searchbar {
     float: right;
-    padding: 10px;
     margin-top: -70px;
     margin-right: 90px;
+
 }
-nav{
+.searchbar input{
+    padding: 8px 30px;
+    border-radius: 12px;
+}
+.navbar-section{
     text-align: center;
     margin-top: 0vh;
     display: block;
@@ -30,41 +35,60 @@ nav{
     background-color: aliceblue;
     padding: 7px;
 }
+.navbar-section a{
+    padding-left: 60px;
+    padding-right: 60px;
+    text-decoration: none;
+    color: brown;
+}
+.navbar-section a:hover{
+    color: black;
+    cursor: pointer;
+}
+
 .leftside{
     border: 1px solid black;
-    width: 20vw;
+    /* width: 20vw; */
     margin-top: 6vh;
-    height: 54vh;
+    /* height: 54vh; */
     display: block;
     background-image: url(https://w0.peakpx.com/wallpaper/174/1010/HD-wallpaper-tata-car-interior-logo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    color: rgb(255, 255, 255);
+    color: aqua;
+    opacity: 0.5;
+    float: left;
+    width: 30%;
 }
-.leftside ul{
+.leftside ul,.rightside-wraper ul{
     list-style-type: none;
-    margin-block-start: 5em;
-    margin-block-end: 1em;
-    margin-inline-start: 72px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
+
 }
-.rightside{
+.rightside-wraper{
     float: right;
-    margin-left: 79.98vw;
-    margin-top: -54.3vh;
+    /* margin-left: 79.98vw; */
+    /* margin-top: -54.3vh; */
     border: 1px solid black;
-    width: 20vw;
+    /* width: 20vw; */
     margin-top: 6vh;
-    height: 54vh;
+    /* height: 54vh; */
     display: block;
     background-image: url(https://w0.peakpx.com/wallpaper/174/1010/HD-wallpaper-tata-car-interior-logo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     color: rgb(255, 255, 255);
-    margin-top: -54.3vh;
-    margin-right: -1vw;
+    /* margin-top: -54.3vh; */
+    /* margin-right: -1vw; */
+    width: 30%;
 }
+.middle{
+    width: 40%;
+    margin-top: 6vh;
+}
+.rightside ul li{
+    list-style: none;
+}
+/*
 .middle{
     margin-left: 20.2vw;
     width: 59.5vw;
@@ -80,6 +104,11 @@ section{
 width: 19vw;
 padding: 5px;
 height: 25.4vh
+}*/
+.middle-wraper{
+    display: flex;
+    height: 54vh;
+    width: 100%;
 }
 footer p{
     text-align: center;
